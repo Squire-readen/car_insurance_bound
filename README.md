@@ -1,4 +1,4 @@
-# 🚗 Car Insurance Claim Prediction
+# Car Insurance Claim Prediction
 
 > A machine learning project that predicts whether a customer will make a car insurance claim — built with a full data preprocessing pipeline, comparative model evaluation, and a custom business revenue optimization framework.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -31,14 +31,14 @@ Key highlights include a reusable `preprocess_data()` function designed to preve
 
 ## Features
 
-- ✅ Comprehensive data cleaning pipeline (outlier handling, type normalization, imputation)
-- ✅ Vehicle make/model typo correction and brand normalization
-- ✅ Joint imputation of `annual_km` and `commute_distance` using a ratio-based factor
-- ✅ Frequency encoding for high-cardinality categorical features
-- ✅ One-hot encoding + median imputation in a scikit-learn `Pipeline`
-- ✅ Logistic Regression vs. Random Forest comparison via ROC-AUC
-- ✅ Custom `advertising_revenue()` function for business-driven threshold selection
-- ✅ Final model refit on full training data and test set prediction export
+- Comprehensive data cleaning pipeline (outlier handling, type normalization, imputation)
+- Vehicle make/model typo correction and brand normalization
+- Joint imputation of `annual_km` and `commute_distance` using a ratio-based factor
+- Frequency encoding for high-cardinality categorical features
+- One-hot encoding + median imputation in a scikit-learn `Pipeline`
+- Logistic Regression vs. Random Forest comparison via ROC-AUC
+- Custom `advertising_revenue()` function for business-driven threshold selection
+- Final model refit on full training data and test set prediction export
 
 ---
 
@@ -77,7 +77,7 @@ cd car-insurance-prediction
 jupyter notebook Car_Insurance_Project.ipynb
 ```
 
-> ⚠️ **Note:** Update the file paths in the data loading section if running locally (change `/content/` to your local data directory).
+> **Note:** Update the file paths in the data loading section if running locally (change `/content/` to your local data directory).
 
 ---
 
